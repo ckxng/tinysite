@@ -1,0 +1,6 @@
+# Make sure that this directory is unreadable to the world.
+
+<Limit GET POST>
+  Order Deny,Allow
+  Deny from All
+</Limit>
